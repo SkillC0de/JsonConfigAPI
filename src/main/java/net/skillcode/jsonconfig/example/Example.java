@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 public class Example {
 
     @NotNull
-    private final static String PATH = "C:/Users/david/YouTube/";
+    private final static String PATH = "C:/Users/example/";
     @NotNull
     private final static String FILE_NAME = "example.json";
 
