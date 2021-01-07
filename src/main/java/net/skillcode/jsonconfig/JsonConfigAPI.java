@@ -32,7 +32,7 @@ public class JsonConfigAPI {
 
     public void unregisterConfig(@NotNull JsonConfig jsonConfig) {
         final Class<? extends JsonConfig> configClass = jsonConfig.getClass();
-        if (!configMap.containsKey(configClass)) {
+        if (configMap.containsKey(configClass)) {
             configMap.remove(configClass);
         }
     }
