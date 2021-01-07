@@ -38,7 +38,7 @@ public class JsonConfigAPI {
     }
 
     @Nullable
-    public <T> T getConfig(@NotNull Class<? extends JsonConfig> configClass) {
+    public <T> T getConfig(@NotNull Class<? extends T> configClass) {
         return (T) configMap.getOrDefault(configClass, null);
     }
 
