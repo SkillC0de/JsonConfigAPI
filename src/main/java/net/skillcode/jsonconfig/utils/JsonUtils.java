@@ -32,7 +32,7 @@ public class JsonUtils {
     public static void toFile(@NotNull Object object, @NotNull String path, @NotNull Boolean prettyPrint) {
         new File(path).getParentFile().mkdirs();
         try (final FileWriter fileWriter = new FileWriter(path)) {
-            final Gson gson = prettyPrint ? new GsonBuilder().setPrettyPrinting().create() : new Gson();
+            final Gson gson = prettyPrint ? new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create() : new GsonBuilder().disableHtmlEscaping().create();
             final String json = gson.toJson(object);
             fileWriter.write(json);
             fileWriter.flush();
