@@ -1,10 +1,10 @@
 
+^
+java:S1075	"ARefactor your code to get this URI from a customizable parameter.(èŸ ö8‰èª½í.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(–éèÖþÿÿÿÿ8Ý–¥½í.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(²ñá—8¶º¦½í.
 b
 java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ñÕ•Ò8£â ½í.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëÇ“Ìÿÿÿÿÿ8¶º¦½í.
 b
 java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(èŸ ö8£â ½í.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëÇ“Ìÿÿÿÿÿ8¶º¦½í.
-^
-java:S1075	"ARefactor your code to get this URI from a customizable parameter.(èŸ ö8‰èª½í.
